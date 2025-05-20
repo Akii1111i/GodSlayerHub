@@ -30,7 +30,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "GUuhYHGG9GUUghsght3ty7tUOBGBubisgbb",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"GOgasWhbFDhbgfVBSiwtgNGIHGUIThpnWbyfhs"}
+      Key = {"GOgasWhbFDhbgfVdBSiwtgNGIHGUIThpnWbyfhs"}
    }
 })
 
