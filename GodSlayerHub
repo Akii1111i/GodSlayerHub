@@ -1,5 +1,1283 @@
-local v0=loadstring(game:HttpGet("https://sirius.menu/rayfield"))();local v1=v0:CreateWindow({Name="God Slayer Hub | [7DS⚔️] Anime Stars TD | v1",Icon=0 + 0 ,LoadingTitle="God Slayer Hub",LoadingSubtitle="by Aki",Theme="Bloom",DisableRayfieldPrompts=false,DisableBuildWarnings=false,ConfigurationSaving={Enabled=false,FolderName=nil,FileName="God Slayer Hub"},Discord={Enabled=false,Invite="noinvitelink",RememberJoins=true},KeySystem=true,KeySettings={Title="GodSlayerHub",Subtitle="Key System",Note="Join Discord for The key.",FileName="GUuhYHGG9GUUghsght3ty7tUOBGBubisgbb",SaveKey=true,GrabKeyFromSite=false,Key={"GOgasWhbFDhbgfVBSiwtgNGIHGUIThpnWbyfhs"}}});local v2=v1:CreateTab("🏠 Home",nil);local v3=v2:CreateSection("Join our discord!");local v4=v2:CreateLabel("💮 discord.gg/Soon.",nil,Color3.fromRGB(16 + 239 ,189,400 -196 ,1),true);local v3=v2:CreateSection("Changelog");local v5=v2:CreateParagraph({Title="-------------- [7DS⚔️] Anime Stars TD v1 --------------",Content=[[
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "God Slayer Hub | [7DS⚔️] Anime Stars TD | v1",
+   Icon = 0,
+   LoadingTitle = "God Slayer Hub",
+   LoadingSubtitle = "by Aki",
+   Theme = "Bloom",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil,
+      FileName = "God Slayer Hub"
+   },
+
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+
+   KeySystem = true,
+   KeySettings = {
+      Title = "GodSlayerHub",
+      Subtitle = "Key System",
+      Note = "Join Discord for The key.",
+      FileName = "GUuhYHGG9GUUghsght3ty7tUOBGBubisgbb",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"GOgasWhbFDhbgfVBSiwtgNGIHGUIThpnWbyfhs"}
+   }
+})
+
+local MainTab = Window:CreateTab("🏠 Home", nil)
+
+local Section = MainTab:CreateSection("Join our discord!")
+local Label = MainTab:CreateLabel("💮 discord.gg/Soon.", nil, Color3.fromRGB(255, 189, 204, 1), true)
+
+local Section = MainTab:CreateSection("Changelog")
+local Paragraph = MainTab:CreateParagraph({
+   Title = "-------------- [7DS⚔️] Anime Stars TD v1 --------------",
+   Content = [[
          🔧 Changes           
 🔹 
 🔹 
-   ]]});local v6=v1:CreateTab("👘 Units",nil);local v4=v6:CreateLabel("💮 You can give yourself units here! 💮",nil,Color3.fromRGB(1722 -(899 + 568) ,125 + 64 ,493 -289 ,604 -(268 + 335) ),true);local v3=v6:CreateSection("All Units List from Best To Worst");local v7=v6:CreateButton({Name="🌞 SunGod",Callback=function() local v17=0;local v18;local v19;while true do if (v17==(291 -(60 + 230))) then for v230=573 -(426 + 146) ,1 + 0  do v19:FireServer(unpack(v18));end break;end if (v17==(1456 -(282 + 1174))) then local v219=811 -(569 + 242) ;while true do if (v219==(2 -1)) then v17=1;break;end if (v219==0) then v18={1,"SunGod","94410702314098"};v19=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v219=1252 -(721 + 530) ;end end end end end});local v7=v6:CreateButton({Name="🐉 KaidoEvo",Callback=function() local v20={2 -1 ,"KaidoEvo","94410702314098"};local v21=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v199=1 + 0 ,1 do v21:FireServer(unpack(v20));end end});local v7=v6:CreateButton({Name="💀 GutsEvo",Callback=function() local v22={1 + 0 ,"GutsEvo","94410702314098"};local v23=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v200=1501 -(1408 + 92) ,1087 -(461 + 625)  do v23:FireServer(unpack(v22));end end});local v7=v6:CreateButton({Name="😈 GriffithEvo",Callback=function() local v24=1288 -(993 + 295) ;local v25;local v26;while true do if (v24==(0 + 0)) then local v220=0;while true do if ((1171 -(418 + 753))==v220) then v25={1 + 0 ,"GriffithEvo","94410702314098"};v26=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v220=1 + 0 ;end if (v220==(1 + 0)) then v24=530 -(406 + 123) ;break;end end end if (v24==(1770 -(1749 + 20))) then for v231=1 + 0 ,1 do v26:FireServer(unpack(v25));end break;end end end});local v7=v6:CreateButton({Name="💀 SkullKnightEvo",Callback=function() local v27=1322 -(1249 + 73) ;local v28;local v29;while true do if (1==v27) then for v232=1 + 0 ,1146 -(466 + 679)  do v29:FireServer(unpack(v28));end break;end if (v27==(0 -0)) then v28={1,"SkullKnightEvo","94410702314098"};v29=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v27=1 + 0 ;end end end});local v7=v6:CreateButton({Name="⚔️ SaberEvo",Callback=function() local v30=0 -0 ;local v31;local v32;while true do if (v30==(2 -1)) then for v233=115 -(4 + 110) ,1 do v32:FireServer(unpack(v31));end break;end if (v30==(584 -(57 + 527))) then v31={1428 -(41 + 1386) ,"SaberEvo","94410702314098"};v32=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v30=1;end end end});local v7=v6:CreateButton({Name="🗡️ MihawkEvo",Callback=function() local v33=0 -0 ;local v34;local v35;while true do if (v33==(2 -1)) then for v234=167 -(122 + 44) ,1 do v35:FireServer(unpack(v34));end break;end if (v33==(0 -0)) then local v221=0 -0 ;while true do if (v221==(0 + 0)) then v34={1,"MihawkEvo","94410702314098"};v35=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v221=1;end if (1==v221) then v33=1;break;end end end end end});local v7=v6:CreateButton({Name="🧢 ShanksEvo",Callback=function() local v36=0;local v37;local v38;while true do if (v36==0) then v37={1258 -(1043 + 214) ,"ShanksEvo","94410702314098"};v38=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v36=3 -2 ;end if (v36==1) then for v235=1213 -(323 + 889) ,2 -1  do v38:FireServer(unpack(v37));end break;end end end});local v7=v6:CreateButton({Name="🪱 GetoEvo",Callback=function() local v39=0;local v40;local v41;while true do if (1==v39) then for v236=581 -(361 + 219) ,321 -(53 + 267)  do v41:FireServer(unpack(v40));end break;end if (0==v39) then v40={1 + 0 ,"GetoEvo","94410702314098"};v41=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v39=414 -(15 + 398) ;end end end});local v7=v6:CreateButton({Name="🕶️ JinWooEvo",Callback=function() local v42={3 -2 ,"JinWooEvo","94410702314098"};local v43=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v201=1,1 do v43:FireServer(unpack(v42));end end});local v7=v6:CreateButton({Name="👑 GilgameshEvo",Callback=function() local v44=0 + 0 ;local v45;local v46;while true do if (v44==(851 -(20 + 830))) then for v237=1 + 0 ,1 do v46:FireServer(unpack(v45));end break;end if (v44==(126 -(116 + 10))) then v45={1,"GilgameshEvo","94410702314098"};v46=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v44=1 -0 ;end end end});local v7=v6:CreateButton({Name="🧠 YutaEvo",Callback=function() local v47={1 + 0 ,"YutaEvo","94410702314098"};local v48=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v202=1 + 0 ,1 do v48:FireServer(unpack(v47));end end});local v7=v6:CreateButton({Name="🔥 IgrisEvo",Callback=function() local v49=0;local v50;local v51;while true do if (v49==1) then for v238=1,1 + 0  do v51:FireServer(unpack(v50));end break;end if (0==v49) then v50={1,"IgrisEvo","94410702314098"};v51=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v49=1;end end end});local v7=v6:CreateButton({Name="👺 MahitoEvo",Callback=function() local v52=1551 -(1126 + 425) ;local v53;local v54;while true do if (v52==0) then local v222=405 -(118 + 287) ;while true do if (v222==0) then v53={1122 -(118 + 1003) ,"MahitoEvo","94410702314098"};v54=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v222=2 -1 ;end if (v222==1) then v52=378 -(142 + 235) ;break;end end end if (v52==(4 -3)) then for v239=1 + 0 ,1 do v54:FireServer(unpack(v53));end break;end end end});local v7=v6:CreateButton({Name="🧊 HorgaEvo",Callback=function() local v55={1 -0 ,"HorgaEvo","94410702314098"};local v56=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v203=1 + 0 ,1 + 0  do v56:FireServer(unpack(v55));end end});local v7=v6:CreateButton({Name="🧠 YutaEvo",Callback=function() local v57={1 + 0 ,"YutaEvo","94410702314098"};local v58=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v204=2 -1 ,1 do v58:FireServer(unpack(v57));end end});local v7=v6:CreateButton({Name="🧙‍♀️ UrahimeEvo",Callback=function() local v59=0;local v60;local v61;while true do if (v59==(2 -1)) then for v240=2 -1 ,1 + 0  do v61:FireServer(unpack(v60));end break;end if (v59==(0 -0)) then v60={1 + 0 ,"UrahimeEvo","94410702314098"};v61=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v59=1 + 0 ;end end end});local v7=v6:CreateButton({Name="🌊 BlackbeardEvo",Callback=function() local v62=0 + 0 ;local v63;local v64;while true do if (v62==(2 -1)) then for v241=1203 -(373 + 829) ,1 do v64:FireServer(unpack(v63));end break;end if (v62==(731 -(476 + 255))) then v63={1 + 0 ,"BlackbeardEvo","94410702314098"};v64=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v62=239 -(64 + 174) ;end end end});local v7=v6:CreateButton({Name="⚡ EnelEvo",Callback=function() local v65=0 + 0 ;local v66;local v67;while true do if (v65==0) then local v223=0 -0 ;while true do if (v223==(336 -(144 + 192))) then v66={217 -(42 + 174) ,"EnelEvo","94410702314098"};v67=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v223=1 + 0 ;end if (v223==(1 + 0)) then v65=1505 -(363 + 1141) ;break;end end end if (v65==(1581 -(1183 + 397))) then for v242=2 -1 ,1 + 0  do v67:FireServer(unpack(v66));end break;end end end});local v7=v6:CreateButton({Name="👧 Rika",Callback=function() local v68=0;local v69;local v70;while true do if (v68==1) then for v243=1,1 + 0  do v70:FireServer(unpack(v69));end break;end if (v68==(1975 -(1913 + 62))) then v69={1 + 0 ,"Rika","94410702314098"};v70=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v68=3 -2 ;end end end});local v7=v6:CreateButton({Name="🏹 ArcherEvo",Callback=function() local v71={1662 -(1477 + 184) ,"ArcherEvo","94410702314098"};local v72=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v205=1,1 do v72:FireServer(unpack(v71));end end});local v7=v6:CreateButton({Name="🧛 BuffyEvo",Callback=function() local v73=0 -0 ;local v74;local v75;while true do if (v73==(0 + 0)) then v74={857 -(564 + 292) ,"BuffyEvo","94410702314098"};v75=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v73=1 -0 ;end if (v73==(2 -1)) then for v244=305 -(244 + 60) ,1 do v75:FireServer(unpack(v74));end break;end end end});local v7=v6:CreateButton({Name="🧔 WhitebeardEvo",Callback=function() local v76={1 + 0 ,"WhitebeardEvo","94410702314098"};local v77=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v206=1002 -(938 + 63) ,1 + 0  do v77:FireServer(unpack(v76));end end});local v7=v6:CreateButton({Name="🌀 RojiEvo",Callback=function() local v78={1126 -(936 + 189) ,"RojiEvo","94410702314098"};local v79=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v207=1,1 + 0  do v79:FireServer(unpack(v78));end end});local v7=v6:CreateButton({Name="🍬 BuuEvo",Callback=function() local v80=0;local v81;local v82;while true do if (v80==0) then v81={1,"BuuEvo","94410702314098"};v82=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v80=1 + 0 ;end if (v80==(1139 -(782 + 356))) then for v245=1,1 do v82:FireServer(unpack(v81));end break;end end end});local v7=v6:CreateButton({Name="🔥 RengokuEvo",Callback=function() local v83={2 -1 ,"RengokuEvo","94410702314098"};local v84=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v208=1,1 -0  do v84:FireServer(unpack(v83));end end});local v7=v6:CreateButton({Name="⚔️ CascaEvo",Callback=function() local v85={1093 -(975 + 117) ,"CascaEvo","94410702314098"};local v86=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v209=1876 -(157 + 1718) ,1 + 0  do v86:FireServer(unpack(v85));end end});local v7=v6:CreateButton({Name="👓 GujoEvo",Callback=function() local v87=0 -0 ;local v88;local v89;while true do if (v87==(0 -0)) then local v224=0;while true do if (v224==(1019 -(697 + 321))) then v87=2 -1 ;break;end if (v224==(0 -0)) then v88={1 + 0 ,"GujoEvo","94410702314098"};v89=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v224=1228 -(322 + 905) ;end end end if (v87==(612 -(602 + 9))) then for v246=1190 -(449 + 740) ,873 -(826 + 46)  do v89:FireServer(unpack(v88));end break;end end end});local v7=v6:CreateButton({Name="👊 LukunaEvo",Callback=function() local v90=947 -(245 + 702) ;local v91;local v92;while true do if (v90==1) then for v247=3 -2 ,1 do v92:FireServer(unpack(v91));end break;end if (v90==0) then v91={1899 -(260 + 1638) ,"LukunaEvo","94410702314098"};v92=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v90=3 -2 ;end end end});local v7=v6:CreateButton({Name="🗡️ IchigoEvo",Callback=function() local v93=0 + 0 ;local v94;local v95;while true do if (v93==0) then v94={1 -0 ,"IchigoEvo","94410702314098"};v95=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v93=1206 -(902 + 303) ;end if (v93==(1 -0)) then for v248=2 -1 ,1 + 0  do v95:FireServer(unpack(v94));end break;end end end});local v7=v6:CreateButton({Name="🤖 AndroidEvo",Callback=function() local v96=1690 -(1121 + 569) ;local v97;local v98;while true do if (v96==0) then v97={684 -(483 + 200) ,"AndroidEvo","94410702314098"};v98=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v96=1464 -(1404 + 59) ;end if (v96==1) then for v249=2 -1 ,1 -0  do v98:FireServer(unpack(v97));end break;end end end});local v7=v6:CreateButton({Name="🔪 KenpachiEvo",Callback=function() local v99={1,"KenpachiEvo","94410702314098"};local v100=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v210=3 -2 ,1 do v100:FireServer(unpack(v99));end end});local v7=v6:CreateButton({Name="🌋 AkainuEvo",Callback=function() local v101=0 -0 ;local v102;local v103;while true do if (v101==(1 -0)) then for v250=1 + 0 ,237 -(141 + 95)  do v103:FireServer(unpack(v102));end break;end if (v101==(0 + 0)) then v102={1,"AkainuEvo","94410702314098"};v103=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v101=1 + 0 ;end end end});local v7=v6:CreateButton({Name="🪓 MorganEvo",Callback=function() local v104={1,"MorganEvo","94410702314098"};local v105=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v211=1 -0 ,1 + 0  do v105:FireServer(unpack(v104));end end});local v7=v6:CreateButton({Name="👁️ AizenEvo",Callback=function() local v106={164 -(92 + 71) ,"AizenEvo","94410702314098"};local v107=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v212=1,1 + 0  do v107:FireServer(unpack(v106));end end});local v7=v6:CreateButton({Name="🔮 MegumiEvo",Callback=function() local v108=0 -0 ;local v109;local v110;while true do if (0==v108) then v109={766 -(574 + 191) ,"MegumiEvo","94410702314098"};v110=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v108=1 + 0 ;end if (v108==(850 -(254 + 595))) then for v251=127 -(55 + 71) ,1 -0  do v110:FireServer(unpack(v109));end break;end end end});local v7=v6:CreateButton({Name="👣 RokuEvo",Callback=function() local v111=1790 -(573 + 1217) ;local v112;local v113;while true do if ((0 -0)==v111) then v112={1 -0 ,"RokuEvo","94410702314098"};v113=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v111=2 -1 ;end if (v111==(1 -0)) then for v252=1 + 0 ,1 do v113:FireServer(unpack(v112));end break;end end end});local v7=v6:CreateButton({Name="🔥 JogoEvo",Callback=function() local v114=0 -0 ;local v115;local v116;while true do if (0==v114) then v115={1,"JogoEvo","94410702314098"};v116=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v114=1 + 0 ;end if (v114==(1887 -(927 + 959))) then for v253=3 -2 ,1 do v116:FireServer(unpack(v115));end break;end end end});local v7=v6:CreateButton({Name="🌿 HanamiEvo",Callback=function() local v117=0;local v118;local v119;while true do if (v117==(733 -(16 + 716))) then for v254=1 -0 ,98 -(11 + 86)  do v119:FireServer(unpack(v118));end break;end if (v117==(0 -0)) then v118={1,"HanamiEvo","94410702314098"};v119=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v117=1;end end end});local v7=v6:CreateButton({Name="🎲 HakariEvo",Callback=function() local v120=0 -0 ;local v121;local v122;while true do if (v120==(0 -0)) then v121={1,"HakariEvo","94410702314098"};v122=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v120=2 -1 ;end if (v120==(1 + 0)) then for v255=1062 -(810 + 251) ,1 + 0  do v122:FireServer(unpack(v121));end break;end end end});local v7=v6:CreateButton({Name="🎸 BrookEvo",Callback=function() local v123=0 + 0 ;local v124;local v125;while true do if (v123==(1 + 0)) then for v256=1,534 -(43 + 490)  do v125:FireServer(unpack(v124));end break;end if (v123==(733 -(711 + 22))) then v124={1,"BrookEvo","94410702314098"};v125=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v123=1 -0 ;end end end});local v7=v6:CreateButton({Name="🐾 PawEvo",Callback=function() local v126=0 + 0 ;local v127;local v128;while true do if (v126==0) then v127={1,"PawEvo","94410702314098"};v128=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v126=406 -(255 + 150) ;end if ((1 + 0)==v126) then for v257=1 + 0 ,1 do v128:FireServer(unpack(v127));end break;end end end});local v7=v6:CreateButton({Name="🩸 Rumi",Callback=function() local v129={1,"Rumi","94410702314098"};local v130=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v213=1740 -(404 + 1335) ,407 -(183 + 223)  do v130:FireServer(unpack(v129));end end});local v7=v6:CreateButton({Name="❄️ RukiaEvo",Callback=function() local v131=0 -0 ;local v132;local v133;while true do if (v131==0) then local v225=0 + 0 ;while true do if (v225==(0 + 0)) then v132={1 + 0 ,"RukiaEvo","94410702314098"};v133=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v225=1;end if ((450 -(108 + 341))==v225) then v131=1;break;end end end if (v131==(1 + 0)) then for v258=4 -3 ,1494 -(711 + 782)  do v133:FireServer(unpack(v132));end break;end end end});local v7=v6:CreateButton({Name="🌌 MadraEvo",Callback=function() local v134=0 -0 ;local v135;local v136;while true do if (v134==(470 -(270 + 199))) then for v259=1,1 + 0  do v136:FireServer(unpack(v135));end break;end if (v134==0) then v135={1820 -(580 + 1239) ,"MadraEvo","94410702314098"};v136=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v134=1 + 0 ;end end end});local v7=v6:CreateButton({Name="🥋 TodoEvo",Callback=function() local v137=0;local v138;local v139;while true do if ((0 + 0)==v137) then v138={1 + 0 ,"TodoEvo","94410702314098"};v139=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v137=1;end if (v137==(1791 -(1010 + 780))) then for v260=1,1 + 0  do v139:FireServer(unpack(v138));end break;end end end});local v7=v6:CreateButton({Name="🔥 Sabo",Callback=function() local v140={1,"Sabo","94410702314098"};local v141=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v214=1,2 -1  do v141:FireServer(unpack(v140));end end});local v7=v6:CreateButton({Name="🌪️ Fuzan",Callback=function() local v142=0 -0 ;local v143;local v144;while true do if (v142==0) then v143={506 -(351 + 154) ,"Fuzan","94410702314098"};v144=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v142=1;end if (v142==(267 -(28 + 238))) then for v261=2 -1 ,1 do v144:FireServer(unpack(v143));end break;end end end});local v7=v6:CreateButton({Name="⚡ KashimoEvo",Callback=function() local v145=1559 -(1381 + 178) ;local v146;local v147;while true do if (v145==1) then for v262=1,1 do v147:FireServer(unpack(v146));end break;end if (v145==(0 + 0)) then v146={1,"KashimoEvo","94410702314098"};v147=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v145=1 + 0 ;end end end});local v7=v6:CreateButton({Name="⚔️ Tengen",Callback=function() local v148=0 -0 ;local v149;local v150;while true do if (v148==(1 + 0)) then for v263=471 -(381 + 89) ,1 + 0  do v150:FireServer(unpack(v149));end break;end if (v148==(0 + 0)) then v149={1,"Tengen","94410702314098"};v150=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v148=1157 -(1074 + 82) ;end end end});local v7=v6:CreateButton({Name="🦋 Shinobu",Callback=function() local v151=0 -0 ;local v152;local v153;while true do if (v151==(1784 -(214 + 1570))) then v152={1 + 0 ,"Shinobu","94410702314098"};v153=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v151=1 + 0 ;end if ((3 -2)==v151) then for v264=1727 -(1668 + 58) ,627 -(512 + 114)  do v153:FireServer(unpack(v152));end break;end end end});local v7=v6:CreateButton({Name="🧢 Langi",Callback=function() local v154=0;local v155;local v156;while true do if (0==v154) then v155={2 -1 ,"Langi","94410702314098"};v156=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v154=1;end if (v154==(3 -2)) then for v265=1 + 0 ,1 + 0  do v156:FireServer(unpack(v155));end break;end end end});local v7=v6:CreateButton({Name="🥕 Carrot",Callback=function() local v157=0 + 0 ;local v158;local v159;while true do if (v157==1) then for v266=3 -2 ,1995 -(109 + 1885)  do v159:FireServer(unpack(v158));end break;end if (v157==0) then v158={1,"Carrot","94410702314098"};v159=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v157=816 -(98 + 717) ;end end end});local v7=v6:CreateButton({Name="🗡️ Itochi",Callback=function() local v160=826 -(802 + 24) ;local v161;local v162;while true do if (v160==0) then local v226=0 -0 ;while true do if (0==v226) then v161={1,"Itochi","94410702314098"};v162=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v226=1 + 0 ;end if (v226==(1 + 0)) then v160=2 -1 ;break;end end end if (v160==1) then for v267=3 -2 ,1 + 0  do v162:FireServer(unpack(v161));end break;end end end});local v7=v6:CreateButton({Name="🔮 Yuji",Callback=function() local v163=0 + 0 ;local v164;local v165;while true do if (v163==(0 + 0)) then v164={1,"Yuji","94410702314098"};v165=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v163=1;end if (v163==(1 + 0)) then for v268=1434 -(797 + 636) ,1 do v165:FireServer(unpack(v164));end break;end end end});local v7=v6:CreateButton({Name="💥 Vegito",Callback=function() local v166=0 -0 ;local v167;local v168;while true do if ((1619 -(1427 + 192))==v166) then local v227=0 + 0 ;while true do if (1==v227) then v166=1;break;end if (v227==(0 -0)) then v167={1,"Vegito","94410702314098"};v168=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v227=327 -(192 + 134) ;end end end if (v166==(1277 -(316 + 960))) then for v269=1,1 + 0  do v168:FireServer(unpack(v167));end break;end end end});local v7=v6:CreateButton({Name="💖 Sakura",Callback=function() local v169=0 + 0 ;local v170;local v171;while true do if (v169==(0 + 0)) then v170={3 -2 ,"Sakura","94410702314098"};v171=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v169=1;end if (v169==(4 -3)) then for v270=1,1 -0  do v171:FireServer(unpack(v170));end break;end end end});local v7=v6:CreateButton({Name="🌀 Roku",Callback=function() local v172=0 -0 ;local v173;local v174;while true do if (v172==(326 -(45 + 280))) then for v271=1,1 do v174:FireServer(unpack(v173));end break;end if (v172==0) then local v228=0;while true do if (v228==(1 + 0)) then v172=1 + 0 ;break;end if (v228==(0 + 0)) then v173={1 + 0 ,"Roku","94410702314098"};v174=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v228=1912 -(340 + 1571) ;end end end end end});local v7=v6:CreateButton({Name="🧛 Buffy",Callback=function() local v175={1,"Buffy","94410702314098"};local v176=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v215=1035 -(125 + 909) ,1949 -(1096 + 852)  do v176:FireServer(unpack(v175));end end});local v7=v6:CreateButton({Name="☁️ Tanjaro",Callback=function() local v177=0;local v178;local v179;while true do if (v177==(1 + 0)) then for v272=1 -0 ,1 do v179:FireServer(unpack(v178));end break;end if (v177==(0 + 0)) then v178={1,"Tanjaro","94410702314098"};v179=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v177=1;end end end});local v7=v6:CreateButton({Name="👊 Baruto",Callback=function() local v180={1,"Baruto","94410702314098"};local v181=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v216=1,1 do v181:FireServer(unpack(v180));end end});local v7=v6:CreateButton({Name="💰 Nanami",Callback=function() local v182={727 -(228 + 498) ,"Nanami","94410702314098"};local v183=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v217=664 -(174 + 489) ,1 do v183:FireServer(unpack(v182));end end});local v7=v6:CreateButton({Name="💸 Lami",Callback=function() local v184=0 -0 ;local v185;local v186;while true do if (v184==1) then for v273=1906 -(830 + 1075) ,525 -(303 + 221)  do v186:FireServer(unpack(v185));end break;end if (v184==(1269 -(231 + 1038))) then local v229=0 + 0 ;while true do if (v229==1) then v184=1163 -(171 + 991) ;break;end if (v229==0) then v185={4 -3 ,"Lami","94410702314098"};v186=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");v229=1;end end end end end});local v8=v1:CreateTab("🎲 Traits",nil);local v3=v8:CreateSection("Change Traits Of Your Units Here!");local v4=v8:CreateLabel("💮 Best to Use in a Private Server 💮",nil,Color3.fromRGB(684 -429 ,189,508 -304 ,1),true);local v9="SunGod";local v10=10;local v11=v8:CreateInput({Name="Character Name",CurrentValue="",PlaceholderText="Enter Character Name",RemoveTextAfterFocusLost=false,Flag="NameInput",Callback=function(v187) local v188=0 + 0 ;local v189;while true do if (v188==(3 -2)) then game:GetService("ReplicatedStorage").Events.Trait:FireServer(unpack(v189));break;end if (v188==(0 -0)) then v9=v187;v189={[1]=v9,[2 -0 ]=v10};v188=3 -2 ;end end end});local v12=v8:CreateInput({Name="Trait Value 1-10 (10 is Ethereal and 1 is Punch",CurrentValue="",PlaceholderText="Enter Trait Number (e.g. 10)",RemoveTextAfterFocusLost=false,Flag="ValueInput",Callback=function(v190) local v191=1248 -(111 + 1137) ;local v192;while true do if (v191==(158 -(91 + 67))) then v192=tonumber(v190);if v192 then local v274=0 -0 ;local v275;while true do if (v274==(1 + 0)) then game:GetService("ReplicatedStorage").Events.Trait:FireServer(unpack(v275));break;end if (v274==(523 -(423 + 100))) then v10=v192;v275={[1]=v9,[2]=v10};v274=1;end end end break;end end end});local v13=v1:CreateTab("🪐 Items",nil);local v4=v13:CreateLabel("💮 Give yourself Items here! 💮",nil,Color3.fromRGB(2 + 253 ,522 -333 ,107 + 97 ,1),true);local v14="Gems";local v15=772 -(326 + 445) ;local v11=v13:CreateInput({Name="Item Name",CurrentValue="",PlaceholderText="Enter Item Name (e.g. Gems, TraitRR)",RemoveTextAfterFocusLost=false,Flag="ItemNameInput",Callback=function(v193) v14=v193;local v194={4 -3 ,v14,"94410702314098"};local v195=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v218=712 -(530 + 181) ,v15 do v195:FireServer(unpack(v194));end end});local v16=v13:CreateInput({Name="Item Amount",CurrentValue="",PlaceholderText="Enter Quantity (e.g. 1, 50, 1000)",RemoveTextAfterFocusLost=false,Flag="ItemAmountInput",Callback=function(v196) local v197=881 -(614 + 267) ;local v198;while true do if (v197==(32 -(19 + 13))) then v198=tonumber(v196);if v198 then local v276=0 -0 ;local v277;local v278;while true do if (v276==(0 -0)) then v15=v198;v277={1 + 0 ,v14,"94410702314098"};v276=1;end if (v276==1) then v278=game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem");for v279=1,v15 do v278:FireServer(unpack(v277));end break;end end end break;end end end});local v4=v13:CreateLabel("💮 For a list with all the Giveable Stuff join our discord! you can find it in (🏠 Home) Tab 💮",nil,Color3.fromRGB(2067 -(1293 + 519) ,189,415 -211 ,1),true);
+   ]]
+})
+
+
+local UnitsTab = Window:CreateTab("👘 Units", nil)
+local Label = UnitsTab:CreateLabel("💮 You can give yourself units here! 💮", nil, Color3.fromRGB(255, 189, 204, 1), true)
+
+local Section = UnitsTab:CreateSection("All Units List from Best To Worst")
+local Button = UnitsTab:CreateButton({
+   Name = "🌞 SunGod",
+   Callback = function()
+         local args = {
+             1,
+             "SunGod",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🐉 KaidoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "KaidoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "💀 GutsEvo",
+   Callback = function()
+         local args = {
+             1,
+             "GutsEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "😈 GriffithEvo",
+   Callback = function()
+         local args = {
+             1,
+             "GriffithEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "💀 SkullKnightEvo",
+   Callback = function()
+         local args = {
+             1,
+             "SkullKnightEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "⚔️ SaberEvo",
+   Callback = function()
+         local args = {
+             1,
+             "SaberEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🗡️ MihawkEvo",
+   Callback = function()
+         local args = {
+             1,
+             "MihawkEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧢 ShanksEvo",
+   Callback = function()
+         local args = {
+             1,
+             "ShanksEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🪱 GetoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "GetoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🕶️ JinWooEvo",
+   Callback = function()
+         local args = {
+             1,
+             "JinWooEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👑 GilgameshEvo",
+   Callback = function()
+         local args = {
+             1,
+             "GilgameshEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧠 YutaEvo",
+   Callback = function()
+         local args = {
+             1,
+             "YutaEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🔥 IgrisEvo",
+   Callback = function()
+         local args = {
+             1,
+             "IgrisEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👺 MahitoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "MahitoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧊 HorgaEvo",
+   Callback = function()
+         local args = {
+             1,
+             "HorgaEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧠 YutaEvo",
+   Callback = function()
+         local args = {
+             1,
+             "YutaEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧙‍♀️ UrahimeEvo",
+   Callback = function()
+         local args = {
+             1,
+             "UrahimeEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🌊 BlackbeardEvo",
+   Callback = function()
+         local args = {
+             1,
+             "BlackbeardEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "⚡ EnelEvo",
+   Callback = function()
+         local args = {
+             1,
+             "EnelEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👧 Rika",
+   Callback = function()
+         local args = {
+             1,
+             "Rika",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🏹 ArcherEvo",
+   Callback = function()
+         local args = {
+             1,
+             "ArcherEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧛 BuffyEvo",
+   Callback = function()
+         local args = {
+             1,
+             "BuffyEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧔 WhitebeardEvo",
+   Callback = function()
+         local args = {
+             1,
+             "WhitebeardEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🌀 RojiEvo",
+   Callback = function()
+         local args = {
+             1,
+             "RojiEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🍬 BuuEvo",
+   Callback = function()
+         local args = {
+             1,
+             "BuuEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🔥 RengokuEvo",
+   Callback = function()
+         local args = {
+             1,
+             "RengokuEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "⚔️ CascaEvo",
+   Callback = function()
+         local args = {
+             1,
+             "CascaEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👓 GujoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "GujoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👊 LukunaEvo",
+   Callback = function()
+         local args = {
+             1,
+             "LukunaEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🗡️ IchigoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "IchigoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🤖 AndroidEvo",
+   Callback = function()
+         local args = {
+             1,
+             "AndroidEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🔪 KenpachiEvo",
+   Callback = function()
+         local args = {
+             1,
+             "KenpachiEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🌋 AkainuEvo",
+   Callback = function()
+         local args = {
+             1,
+             "AkainuEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🪓 MorganEvo",
+   Callback = function()
+         local args = {
+             1,
+             "MorganEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👁️ AizenEvo",
+   Callback = function()
+         local args = {
+             1,
+             "AizenEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🔮 MegumiEvo",
+   Callback = function()
+         local args = {
+             1,
+             "MegumiEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👣 RokuEvo",
+   Callback = function()
+         local args = {
+             1,
+             "RokuEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🔥 JogoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "JogoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🌿 HanamiEvo",
+   Callback = function()
+         local args = {
+             1,
+             "HanamiEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🎲 HakariEvo",
+   Callback = function()
+         local args = {
+             1,
+             "HakariEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🎸 BrookEvo",
+   Callback = function()
+         local args = {
+             1,
+             "BrookEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🐾 PawEvo",
+   Callback = function()
+         local args = {
+             1,
+             "PawEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🩸 Rumi",
+   Callback = function()
+         local args = {
+             1,
+             "Rumi",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "❄️ RukiaEvo",
+   Callback = function()
+         local args = {
+             1,
+             "RukiaEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🌌 MadraEvo",
+   Callback = function()
+         local args = {
+             1,
+             "MadraEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🥋 TodoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "TodoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🔥 Sabo",
+   Callback = function()
+         local args = {
+             1,
+             "Sabo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🌪️ Fuzan",
+   Callback = function()
+         local args = {
+             1,
+             "Fuzan",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "⚡ KashimoEvo",
+   Callback = function()
+         local args = {
+             1,
+             "KashimoEvo",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "⚔️ Tengen",
+   Callback = function()
+         local args = {
+             1,
+             "Tengen",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🦋 Shinobu",
+   Callback = function()
+         local args = {
+             1,
+             "Shinobu",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧢 Langi",
+   Callback = function()
+         local args = {
+             1,
+             "Langi",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+-- Bad Tier
+local Button = UnitsTab:CreateButton({
+   Name = "🥕 Carrot",
+   Callback = function()
+         local args = {
+             1,
+             "Carrot",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🗡️ Itochi",
+   Callback = function()
+         local args = {
+             1,
+             "Itochi",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🔮 Yuji",
+   Callback = function()
+         local args = {
+             1,
+             "Yuji",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "💥 Vegito",
+   Callback = function()
+         local args = {
+             1,
+             "Vegito",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "💖 Sakura",
+   Callback = function()
+         local args = {
+             1,
+             "Sakura",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🌀 Roku",
+   Callback = function()
+         local args = {
+             1,
+             "Roku",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "🧛 Buffy",
+   Callback = function()
+         local args = {
+             1,
+             "Buffy",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "☁️ Tanjaro",
+   Callback = function()
+         local args = {
+             1,
+             "Tanjaro",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "👊 Baruto",
+   Callback = function()
+         local args = {
+             1,
+             "Baruto",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+-- Money Units
+local Button = UnitsTab:CreateButton({
+   Name = "💰 Nanami",
+   Callback = function()
+         local args = {
+             1,
+             "Nanami",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local Button = UnitsTab:CreateButton({
+   Name = "💸 Lami",
+   Callback = function()
+         local args = {
+             1,
+             "Lami",
+             "94410702314098"
+         }
+
+         local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+         for i = 1, 1 do
+             event:FireServer(unpack(args))
+         end
+   end,
+})
+
+local TraitsTab = Window:CreateTab("🎲 Traits", nil)
+local Section = TraitsTab:CreateSection("Change Traits Of Your Units Here!")
+local Label = TraitsTab:CreateLabel("💮 Best to Use in a Private Server 💮", nil, Color3.fromRGB(255, 189, 204, 1), true)
+
+local characterName = "SunGod"
+local traitValue = 10
+
+-- Input for character name
+local NameInput = TraitsTab:CreateInput({
+   Name = "Character Name",
+   CurrentValue = "",
+   PlaceholderText = "Enter Character Name",
+   RemoveTextAfterFocusLost = false,
+   Flag = "NameInput",
+   Callback = function(Text)
+       characterName = Text
+
+       local args = {
+           [1] = characterName,
+           [2] = traitValue
+       }
+
+       game:GetService("ReplicatedStorage").Events.Trait:FireServer(unpack(args))
+   end,
+})
+
+-- Input for trait value
+local ValueInput = TraitsTab:CreateInput({
+   Name = "Trait Value 1-10 (10 is Ethereal and 1 is Punch",
+   CurrentValue = "",
+   PlaceholderText = "Enter Trait Number (e.g. 10)",
+   RemoveTextAfterFocusLost = false,
+   Flag = "ValueInput",
+   Callback = function(Text)
+       local number = tonumber(Text)
+       if number then
+           traitValue = number
+
+           local args = {
+               [1] = characterName,
+               [2] = traitValue
+           }
+
+           game:GetService("ReplicatedStorage").Events.Trait:FireServer(unpack(args))
+       end
+   end,
+})
+
+
+local ItemsTab = Window:CreateTab("🪐 Items", nil)
+local Label = ItemsTab:CreateLabel("💮 Give yourself Items here! 💮", nil, Color3.fromRGB(255, 189, 204, 1), true)
+
+local itemName = "Gems"
+local itemAmount = 1
+
+-- Input for Item Name
+local NameInput = ItemsTab:CreateInput({
+   Name = "Item Name",
+   CurrentValue = "",
+   PlaceholderText = "Enter Item Name (e.g. Gems, TraitRR)",
+   RemoveTextAfterFocusLost = false,
+   Flag = "ItemNameInput",
+   Callback = function(Text)
+       itemName = Text
+
+       local args = {
+           1,
+           itemName,
+           "94410702314098"
+       }
+
+       local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+       for i = 1, itemAmount do
+           event:FireServer(unpack(args))
+       end
+   end,
+})
+
+-- Input for Amount (loop count)
+local AmountInput = ItemsTab:CreateInput({
+   Name = "Item Amount",
+   CurrentValue = "",
+   PlaceholderText = "Enter Quantity (e.g. 1, 50, 1000)",
+   RemoveTextAfterFocusLost = false,
+   Flag = "ItemAmountInput",
+   Callback = function(Text)
+       local number = tonumber(Text)
+       if number then
+           itemAmount = number
+
+           local args = {
+               1,
+               itemName,
+               "94410702314098"
+           }
+
+           local event = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("GiveItem")
+
+           for i = 1, itemAmount do
+               event:FireServer(unpack(args))
+           end
+       end
+   end,
+})
+
+local Label = ItemsTab:CreateLabel("💮 For a list with all the Giveable Stuff join our discord! you can find it in (🏠 Home) Tab 💮", nil, Color3.fromRGB(255, 189, 204, 1), true)
+
+local LevelsTab = Window:CreateTab("🎴 Levels", nil)
+local Label = LevelsTab:CreateLabel("💮 Give Levels to your units here! 💮", nil, Color3.fromRGB(255, 189, 204, 1), true)
+
+local characterName = "SunGod"
+local levelNumber = 8
+
+-- Character name input
+local NameInput = LevelsTab:CreateInput({
+   Name = "Character Name",
+   CurrentValue = "",
+   PlaceholderText = "Enter Character Name (e.g. SunGod)",
+   RemoveTextAfterFocusLost = false,
+   Flag = "CharNameInput",
+   Callback = function(Text)
+       characterName = Text
+
+       local args = {
+           [1] = levelNumber,
+           [2] = characterName .. "Level"
+       }
+
+       game:GetService("ReplicatedStorage").Events.GiveItem:FireServer(unpack(args))
+   end,
+})
+
+-- Number input
+local NumberInput = LevelsTab:CreateInput({
+   Name = "Level Number",
+   CurrentValue = "",
+   PlaceholderText = "Enter Number (e.g. 8)",
+   RemoveTextAfterFocusLost = false,
+   Flag = "LevelNumInput",
+   Callback = function(Text)
+       local number = tonumber(Text)
+       if number then
+           levelNumber = number
+
+           local args = {
+               [1] = levelNumber,
+               [2] = characterName .. "Level"
+           }
+
+           game:GetService("ReplicatedStorage").Events.GiveItem:FireServer(unpack(args))
+       end
+   end,
+})
